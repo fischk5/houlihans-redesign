@@ -18,7 +18,7 @@ Each restaurant location has different hours and active specials/happy hours, so
 page.  Instead, the user must find the location they wish to learn about first, so I tried to make that easy, intuitive, and fast.  To
  that end, I present the user with an attractive splash image with a Houlihan's trendy catchphrase to invite the user to the experience.
 
-![Home](/../<screenshots>/screenshots/screenshots/home.PNG?raw=true "Home")
+![home](https://user-images.githubusercontent.com/28768183/29048475-68170ea4-7b96-11e7-869b-b7bdae623d35.PNG)
  
  The user can scroll down to find a location search input for zip code, or farther down to find the full list of restaurant locations.  While
  testing this interface with several people, they did not all scroll down naturally, so I linked the location list in the header of the 
