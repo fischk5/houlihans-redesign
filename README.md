@@ -52,6 +52,11 @@ page.  Instead, the user must find the location they wish to learn about first, 
  the application was written with a mobile-first design.  The CSS breakpoints add flexbox functionality and full-screen support, while the
  primary CSS was written and tested for small screens using standard practices like vertical lists and hamburger menus.
  
+ ![mloc](https://user-images.githubusercontent.com/28768183/29048951-f7d555a8-7b98-11e7-83cf-c5fddbab93ea.PNG) ![mmenu](https://user-images.githubusercontent.com/28768183/29048958-03fb5350-7b99-11e7-997f-3781b064d507.PNG) 
+ 
+ ![mstore](https://user-images.githubusercontent.com/28768183/29048967-110690a0-7b99-11e7-89db-143b3984d21c.PNG)
+
+ 
  This SPA is faster than the www.houlihans.com website, and was reported more intuitive to retrieve the information users wanted
  during testing.  The application does not currently support all the features of the existing website, but does accomplish the aforementioned
  goals and incorporates several front-end technologies I want to hightlight on my portfolio.
