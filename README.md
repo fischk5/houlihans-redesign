@@ -20,7 +20,11 @@ page.  Instead, the user must find the location they wish to learn about first, 
 
 ![home](https://user-images.githubusercontent.com/28768183/29048475-68170ea4-7b96-11e7-869b-b7bdae623d35.PNG)
  
- The user can scroll down to find a location search input for zip code, or farther down to find the full list of restaurant locations.  While
+ The user can scroll down to find a location search input for zip code, or farther down to find the full list of restaurant locations. 
+ ![homezipsearch](https://user-images.githubusercontent.com/28768183/29048510-a5490ed0-7b96-11e7-9447-c9d846136d73.PNG)
+ ![homelocsearch](https://user-images.githubusercontent.com/28768183/29048518-aede025c-7b96-11e7-9332-904cf7b5e2ff.PNG)
+ 
+ While
  testing this interface with several people, they did not all scroll down naturally, so I linked the location list in the header of the 
  website where many people look first.
  
@@ -30,8 +34,16 @@ page.  Instead, the user must find the location they wish to learn about first, 
  to protect my API key).  On mobile, the embedded map is smaller but would allow direct linking to any mapping application existent on the
  users phone.
  
- Scrolling down the user will find the menu, several featured menu items in pictures, and a reservation form at the bottom.  There is no code
+ ![storeloc](https://user-images.githubusercontent.com/28768183/29048530-c6c99fa2-7b96-11e7-951c-d90eed71d6ae.PNG)
+ 
+ Scrolling down the user will find the menu, several featured menu items in pictures, and a reservation form at the bottom.  
+ 
+ ![storemenu](https://user-images.githubusercontent.com/28768183/29048536-d3e3f2b4-7b96-11e7-98ac-89f032a46cac.PNG)
+ 
+ There is no code
  to support the form in this application, but a backend could be created for the reservation form to complete the feature.
+ 
+ ![storereserve](https://user-images.githubusercontent.com/28768183/29048543-e16f3dee-7b96-11e7-9f7e-e912223895b0.PNG)
  
  The footer at the bottom has links to Houlihan's social media sites, and they are included in this application as icon fonts to increase
  load time and allow great flexibility in their display.
