@@ -1,0 +1,36 @@
+<div>
+  <!-- Greeting message -->
+  <div id="home-welcome">
+    <h2>We've been expecting you.  <span>Now, let's eat.</span></h2>
+  </div>
+
+  <!-- Select location by search -->
+  <div id="home-search">
+    <h1>Find a <span>Houlihan's</span></h1>
+    <hr>
+    <form ng-submit="goToStore()">
+      <h2>Enter your zip code</h2>
+      <input id="home-search-input" type="text" ng-model="zipcode"
+      placeholder="Like '55420' or '90210'" autocomplete="postal-code">
+      <input id="search-input-submit" type="submit">
+    </form>
+    <h1>Or choose a location below...</h1>
+  </div>
+
+  <!-- Select location by list-->
+  <div id="home-list">
+    <h2>The Old Fashioned Way<br><span>(we won't judge)</span></h2>
+    <hr>
+
+    <div data-ng-repeat="place in locations" class="home-state-item">
+      <h3 class="home-list-state">{{ place.state }}</h3>
+      <div class="home-list-city-container">
+        <div ng-repeat="address in place.addresses" class="home-city-item">
+          <p><a href="#/store" ng-click="setCurrentCity($parent.$index, $index)">{{address.city}}</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

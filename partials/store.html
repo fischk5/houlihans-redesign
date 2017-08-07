@@ -1,0 +1,137 @@
+<div>
+  <!-- Greeting message -->
+  <div id="store-header">
+
+    <div class="store-header-card" id="store-location">
+
+      <div class="location-card-container">
+
+        <div class="location-card-head">
+          <h2><span id="location-selected">Hello, </span>{{currentLocation.city}}</h2>
+          <a href="#/change-location"><span>change location<i class="material-icons">mode_edit</i></span></a>
+        </div>
+
+        <hr>
+
+        <div class="location-card-body">
+          <h3>Address</h3>
+          <p>{{currentLocation.street}}</p>
+          <p>{{currentLocation.city}}, {{currentLocation.stateAb}} {{currentLocation.zip}}</p>
+          <p>{{currentLocation.phone}}</p>
+        </div>
+
+        <hr>
+
+        <div class="location-card-foot">
+          <h3>Hours</h3>
+          <div ng-repeat="hour in hours" class="location-times">
+            <div class="location-time"><p>{{hour.days}}</p></div>
+            <div class="location-time"><p>{{hour.times}}</p></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="store-header-card" id="store-map">
+      <iframe ng-src="{{url}}">
+
+    </iframe>
+  </div>
+
+  </div>
+
+  <!-- MENU AREA -->
+
+  <div id="store-menu">
+
+    <div class="store-menu-column">
+
+      <div class="menu-row">
+        <div class="menu-container">
+          <img class="menu-img" src="image/menuSteak.png">
+          <div class="menu-overlay">
+            <div class = "menu-text">
+              <h4><em>Cuts & Glory</em></h4>
+              <h2>9 oz. Top Sirloin</h2>
+              <h4>$21.50</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-container">
+          <img class="menu-img" src="image/menuCoffee.png">
+          <div class="menu-overlay">
+            <div class = "menu-text">
+              <h4><em>Life Fuel</em></h4>
+              <h2>French Roast Coffee</h2>
+              <h4>$2.50</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-row">
+        <div class="menu-container">
+          <img class="menu-img" src="image/menuBeer.png">
+          <div class="menu-overlay">
+            <div class = "menu-text">
+              <h4><em>Bottles & Drafts</em></h4>
+              <h2>Boulevard Tank 7</h2>
+              <h4>$4.50</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-container">
+          <img class="menu-img" src="image/menuBacon.png">
+          <div class="menu-overlay">
+            <div class = "menu-text">
+              <h4><em>The Main Event</em></h4>
+              <h2>Korean Chicken</h2>
+              <h4>$15.95</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="store-menu-column">
+
+    <div id="menu-description">
+      <h2>Established in <span>1972</span></h2>
+      <p>Serving great food starts with great ingredients. We proudly source ingredients from partners committed to
+quality, authenticity and practices that work to create a sustainable future. Thanks to our partners like Iowa
+Premium (IA), Belgioioso (WI) and Earthbound Farms Organic (CA) for making us look (and taste) so good.</p>
+      <a href="/download/menu.pdf" target="_blank">view menu</a>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- SPECIALS AREA -->
+
+<div id="store-reserve">
+
+  <div class="reserve-column">
+  </div>
+
+  <div class="reserve-column reserve-reserve">
+    <h2>Reserve Your Space</h2>
+    <hr>
+    <form id="reservation-form">
+      <input type="text" autocomplete="name" placeholder="Your Name">
+      <input type="text" autocomplete="email" placeholder="Your Email">
+      <input type="text" placeholder="4 People">
+      <input type="datetime-local">
+      <input id="reserve-submit" type="submit" value="Find A Table">
+    </form>
+  </div>
+
+  <div class="reserve-column">
+  </div>
+
+</div>
